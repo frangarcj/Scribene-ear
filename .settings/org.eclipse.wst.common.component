@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+<wb-module deploy-name="Scribene-ear">
+<wb-resource deploy-path="/" source-path="/EarContent"/>
+        <dependent-module archiveName="Scribene-ejb.jar" deploy-path="/" handle="module:/resource/Scribene-ejb/Scribene-ejb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-seam-2.2.1.Final.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/jboss/seam/jboss-seam/2.2.1.Final/jboss-seam-2.2.1.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Scribene.war" deploy-path="/" handle="module:/resource/Scribene/Scribene">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="richfaces-api-3.3.3.Final.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/richfaces/framework/richfaces-api/3.3.3.Final/richfaces-api-3.3.3.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-digester-1.8.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-digester/commons-digester/1.8/commons-digester-1.8.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tika-parsers-0.9.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/tika/tika-parsers/0.9/tika-parsers-0.9.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tika-core-0.9.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/tika/tika-core/0.9/tika-core-0.9.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="netcdf-4.2-min.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/edu/ucar/netcdf/4.2-min/netcdf-4.2-min.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-httpclient-3.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.0.4.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-codec-1.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-codec/commons-codec/1.2/commons-codec-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="apache-mime4j-0.6.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/james/apache-mime4j/0.6/apache-mime4j-0.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-compress-1.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/commons/commons-compress/1.1/commons-compress-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pdfbox-1.4.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/pdfbox/pdfbox/1.4.0/pdfbox-1.4.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fontbox-1.4.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/pdfbox/fontbox/1.4.0/fontbox-1.4.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jempbox-1.4.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/pdfbox/jempbox/1.4.0/jempbox-1.4.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bcmail-jdk15-1.45.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/bouncycastle/bcmail-jdk15/1.45/bcmail-jdk15-1.45.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bcprov-jdk15-1.45.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/bouncycastle/bcprov-jdk15/1.45/bcprov-jdk15-1.45.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-3.7.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/poi/poi/3.7/poi-3.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-scratchpad-3.7.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/poi/poi-scratchpad/3.7/poi-scratchpad-3.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-ooxml-3.7.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/poi/poi-ooxml/3.7/poi-ooxml-3.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-ooxml-schemas-3.7.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/poi/poi-ooxml-schemas/3.7/poi-ooxml-schemas-3.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xmlbeans-2.3.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dom4j-1.6.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="geronimo-stax-api_1.0_spec-1.0.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tagsoup-1.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/ccil/cowan/tagsoup/tagsoup/1.2/tagsoup-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="asm-3.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/asm/asm/3.1/asm-3.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="metadata-extractor-2.4.0-beta-1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/drewnoakes/metadata-extractor/2.4.0-beta-1/metadata-extractor-2.4.0-beta-1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="boilerpipe-1.1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/de/l3s/boilerpipe/boilerpipe/1.1.0/boilerpipe-1.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rome-0.9.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/rome/rome/0.9/rome-0.9.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xstream-1.3.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-el-1.0_02.CR5.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/jboss/el/jboss-el/1.0_02.CR5/jboss-el-1.0_02.CR5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="drools-compiler-5.0.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/drools/drools-compiler/5.0.1/drools-compiler-5.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="drools-core-5.0.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/drools/drools-core/5.0.1/drools-core-5.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="drools-api-5.0.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/drools/drools-api/5.0.1/drools-api-5.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="antlr-runtime-3.1.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/antlr/antlr-runtime/3.1.1/antlr-runtime-3.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mvel2-2.0.10.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/mvel/mvel2/2.0.10/mvel2-2.0.10.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jbpm-jpdl-3.2.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/jbpm/jbpm-jpdl/3.2.2/jbpm-jpdl-3.2.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-beanutils-1.7.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+</wb-module>
+</project-modules>
